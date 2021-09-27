@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Buy product</title>
+  <meta  name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    
+button{
+background-color: Blue;
+font-size:35px;
+color:white;
+}
+
+table{
+  padding:20px;
+}
+body{
+  background-color:lightblue;
+  font-size:30px;
+}
+  </style>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <header>
+          <h1>Book Tshirt</h1>
+            </div>
+        </div>
+ <CENTER>
+    <TABLE>
+      <form action="" method="put" name="buyForm" id="buyForm" onsubmit="validateForm()">
+      <tr>
+        <td>
+          Tagline 
+        </td>
+        <td>
+          <INPUT TYPE="TEXT" id="tagline" name="tagline"></INPUT>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Color:
+        </td>
+        <td>
+          <INPUT TYPE="TEXT" id="color" name="color"></INPUT>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Address:
+        </td>
+        <td>
+          <textarea id="address" name="address"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td ID="demo">
+          Size:
+        </td>
+        <td>
+          <SELECT id="size" name="size">
+            <OPTION VALUE="size">select size</OPTION>
+            <OPTION VALUE="xl">XL</OPTION>
+            <OPTION VALUE="xl">L</OPTION>
+            <OPTION VALUE="m">M</OPTION>
+            <OPTION VALUE="s">S</OPTION>
+            <OPTION VALUE="xs">XS</OPTION>
+          </SELECT>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          DATE OF Delivery:
+        </td>
+        <td>
+          <input type="date" id="date" name="date" ></input>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox">Accept terms and condition
+        </td>
+      </tr>
+    </TABLE>
+  <center>
+  <button type="submit" class="btn" name="submit" id="submit" onclick="validateForm()">
+    submit
+  </button>
+  <button>
+    cancel
+  </button>
+    </center> 
+</form>  
+</TABLE>    
+</BODY>
+</HTML>
