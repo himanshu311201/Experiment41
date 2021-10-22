@@ -7,7 +7,7 @@ document.getElementById('color').value,
 document.getElementById('address').value,
 document.getElementById('size').value,
 document.getElementById('date').value,
-document.getElementById(‘mobile’).value,
+document.getElementById('mobile').value,
 ];
 var j=0;
 const y=formComponent[5];
