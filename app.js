@@ -7,8 +7,15 @@ document.getElementById('color').value,
 document.getElementById('address').value,
 document.getElementById('size').value,
 document.getElementById('date').value,
+document.getElementById(‘mobile’).value,
 ];
 var j=0;
+const y=formComponent[5];
+    if(y.length!=10||parseInt(y)==NaN){
+        alert("Invalid mobile number");
+        return;
+    }
+
 for(var i=0;i<=5 && j!=1;i++)
 {
 if (formComponent[i]==="") {
