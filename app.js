@@ -24,6 +24,13 @@ alert("Please fill the details");
 return;
 }
 }
+var Startdate = new Date(formComponent[4]);
+var now = new Date();
+if (Startdate <= now) {
+  // selected date is in the past
+  alert("Please enter valid date");
+  return;
+}
 // Bill
 const reciept1 = `RECEIPT \nTagline: ${formComponent[0]}\nColor:
 ${formComponent[1]}\nAddress: ${formComponent[2]}\nSize:${formComponent[3]} \nDate:${formComponent[4]}`;
@@ -36,4 +43,3 @@ form.addEventListener("submit", (event) => {
 // stop form submission
 event.preventDefault();
 });
-
